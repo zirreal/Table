@@ -1,0 +1,42 @@
+
+.table-header {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.table-header:hover {
+    background-color: rgba(180, 223, 248, 0.7);
+}
+
+.table-header:active {
+    background-color: rgba(159, 202, 226, 0.6);
+}
+
+
+.table-sortable .desc::after {
+    content: "\25b4";
+  }
+  
+  .table-sortable .asc::after {
+    content: "\25be";
+  }
+  
+  .table-sortable .asc::after,
+  .table-sortable .desc::after {
+    margin-left: 5px;
+  }
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
