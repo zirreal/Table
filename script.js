@@ -147,7 +147,6 @@
     validateForm();
     el.preventDefault();
     if (!$form.checkValidity()) {
-      console.log(1);
       $button.classList.add('disabled');
       $form.classList.add('was-validated');
     } else {
@@ -155,7 +154,6 @@
       $formInputs.forEach((e) => {
         e.value = '';
       })
-      console.log(2)
       $button.classList.remove('disabled');
       $form.classList.remove('was-validated');
     }
@@ -229,14 +227,12 @@
       item.classList.remove('desc');
       item.classList.add('asc');
       sortedStudents = reversedArray;
-      console.log(sortedStudents)
       while ($tbody.firstChild) {
         $tbody.removeChild($tbody.firstChild);
       }
     } else if (item.classList.contains('asc')) {
       item.classList.remove('asc');
       item.classList.add('desc');
-      console.log(reversedArray)
       while ($tbody.firstChild) {
         $tbody.removeChild($tbody.firstChild);
       }
