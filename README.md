@@ -1,4 +1,8 @@
-# Таблица
+# Таблица 🗒
+
+> :bulb: **RUS** 
+
+``` Описание на русском языке ```
 
 Простая таблица с возможностью фильтрации
 
@@ -12,3 +16,29 @@
 
 ## Дополнительные библиотеки
 - Bootstrap (для стилей и валидации)
+
+
+---
+
+=========================
+
+---
+
+> :bulb: **ENG** 
+
+``` English description of this project ```
+
+simple filtering table  
+
+**DEMO only**.  
+
+You can check out the result here: https://fervent-liskov-46311a.netlify.app/
+ 
+
+## Key Features:
+- localStorage
+- form validation
+- filter
+
+## Additional  libraries 
+- Bootstrap 
