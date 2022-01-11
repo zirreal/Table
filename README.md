@@ -28,7 +28,7 @@
 
 ``` English description of this project ```
 
-simple filtering table  
+simple table  with filter
 
 **DEMO only**.  
 
